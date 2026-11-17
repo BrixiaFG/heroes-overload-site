@@ -9,7 +9,7 @@ Edit the texts here, run the script, and commit the pages it writes.
 """
 import html, sys, pathlib
 
-EMAIL = ''                      # the game's support Gmail (Brixia creates it); the game's Settings use the same address
+EMAIL = 'heroesoverload.support@gmail.com'   # the game's support address; the game's Settings use the same one
 UPDATED = {'en': '17 November 2026', 'it': '17 novembre 2026'}
 ROOT = pathlib.Path(__file__).parent
 
